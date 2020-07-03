@@ -1,0 +1,10 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=linux
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:helloOpenMP,org.eclipse.launchbar.core.descriptorType.default\:HelloMPI,org.eclipse.launchbar.core.descriptorType.default\:HelloMPI (1),org.eclipse.launchbar.core.descriptorType.default\:matrix_mult_mpi
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:HelloMPI\ (1)/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:HelloMPI\ (1)/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:HelloMPI/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:helloOpenMP/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:helloOpenMP/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

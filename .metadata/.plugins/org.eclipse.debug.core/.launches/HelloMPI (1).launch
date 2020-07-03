@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.ptp.launch.parallelLaunch">
+    <stringAttribute key="f6b87212-5b7f-30ff-ab89-65a8ac2413e9.1525" value="RUNNING"/>
+    <stringAttribute key="f6b87212-5b7f-30ff-ab89-65a8ac2413e9.bindir" value=""/>
+    <stringAttribute key="f6b87212-5b7f-30ff-ab89-65a8ac2413e9.control.address" value="isd-VirtualBox"/>
+    <stringAttribute key="f6b87212-5b7f-30ff-ab89-65a8ac2413e9.control.queue.name" value=""/>
+    <stringAttribute key="f6b87212-5b7f-30ff-ab89-65a8ac2413e9.control.user.name" value="isd"/>
+    <stringAttribute key="f6b87212-5b7f-30ff-ab89-65a8ac2413e9.control.working.dir" value="/home/isd"/>
+    <stringAttribute key="f6b87212-5b7f-30ff-ab89-65a8ac2413e9.current_controller" value="Basic.Options"/>
+    <stringAttribute key="f6b87212-5b7f-30ff-ab89-65a8ac2413e9.debuggerArgs" value="--port=36481 --host=localhost --debugger=gdb-mi"/>
+    <stringAttribute key="f6b87212-5b7f-30ff-ab89-65a8ac2413e9.debuggerId" value="org.eclipse.ptp.debug.sdm"/>
+    <stringAttribute key="f6b87212-5b7f-30ff-ab89-65a8ac2413e9.directory" value="/home/isd/eclipse-workspace/HelloMPI/Debug"/>
+    <stringAttribute key="f6b87212-5b7f-30ff-ab89-65a8ac2413e9.enabled_Advanced.Options" value="useDefaultAguments useDefaultPath"/>
+    <stringAttribute key="f6b87212-5b7f-30ff-ab89-65a8ac2413e9.enabled_Basic.Options" value="mpiNumberOfProcesses prefixOption useHostFile useHostList"/>
+    <stringAttribute key="f6b87212-5b7f-30ff-ab89-65a8ac2413e9.executableDirectory" value="/home/isd/eclipse-workspace/HelloMPI/Debug"/>
+    <stringAttribute key="f6b87212-5b7f-30ff-ab89-65a8ac2413e9.executablePath" value="/home/isd/eclipse-workspace/HelloMPI/Debug/HelloMPI"/>
+    <stringAttribute key="f6b87212-5b7f-30ff-ab89-65a8ac2413e9.host_file" value=""/>
+    <stringAttribute key="f6b87212-5b7f-30ff-ab89-65a8ac2413e9.host_list" value=""/>
+    <stringAttribute key="f6b87212-5b7f-30ff-ab89-65a8ac2413e9.invalid_Advanced.Options" value="bindir script_path"/>
+    <stringAttribute key="f6b87212-5b7f-30ff-ab89-65a8ac2413e9.invalid_Basic.Options" value="host_file host_list prefix script_path"/>
+    <stringAttribute key="f6b87212-5b7f-30ff-ab89-65a8ac2413e9.launchMode" value="debug"/>
+    <intAttribute key="f6b87212-5b7f-30ff-ab89-65a8ac2413e9.mpiNumberOfProcesses" value="4"/>
+    <stringAttribute key="f6b87212-5b7f-30ff-ab89-65a8ac2413e9.mpich2_version" value="no_version"/>
+    <stringAttribute key="f6b87212-5b7f-30ff-ab89-65a8ac2413e9.prefix" value=""/>
+    <booleanAttribute key="f6b87212-5b7f-30ff-ab89-65a8ac2413e9.prefixOption" value="false"/>
+    <stringAttribute key="f6b87212-5b7f-30ff-ab89-65a8ac2413e9.progArgs" value=""/>
+    <stringAttribute key="f6b87212-5b7f-30ff-ab89-65a8ac2413e9.ptpDirectory" value="/home/isd/.eclipsesettings"/>
+    <booleanAttribute key="f6b87212-5b7f-30ff-ab89-65a8ac2413e9.useDefaultAguments" value="true"/>
+    <booleanAttribute key="f6b87212-5b7f-30ff-ab89-65a8ac2413e9.useDefaultPath" value="true"/>
+    <booleanAttribute key="f6b87212-5b7f-30ff-ab89-65a8ac2413e9.useHostFile" value="false"/>
+    <booleanAttribute key="f6b87212-5b7f-30ff-ab89-65a8ac2413e9.useHostList" value="false"/>
+    <stringAttribute key="f6b87212-5b7f-30ff-ab89-65a8ac2413e9.valid_Advanced.Options" value="1525 bindir control.address control.queue.name control.user.name control.working.dir current_controller debuggerId enabled_Advanced.Options executableDirectory executablePath host_file host_list invalid_Advanced.Options launchMode mpiNumberOfProcesses mpich2_version prefix prefixOption progArgs ptpDirectory useDefaultAguments useDefaultPath useHostFile useHostList valid_Advanced.Options visible_Advanced.Options working.directory"/>
+    <stringAttribute key="f6b87212-5b7f-30ff-ab89-65a8ac2413e9.valid_Basic.Options" value="1525 bindir control.address control.queue.name control.user.name control.working.dir current_controller debuggerId enabled_Basic.Options executableDirectory executablePath invalid_Basic.Options launchMode mpiNumberOfProcesses mpich2_version prefixOption progArgs ptpDirectory useDefaultAguments useDefaultPath useHostFile useHostList valid_Basic.Options visible_Basic.Options working.directory"/>
+    <stringAttribute key="f6b87212-5b7f-30ff-ab89-65a8ac2413e9.visible_Advanced.Options" value="bindir useDefaultAguments useDefaultPath"/>
+    <stringAttribute key="f6b87212-5b7f-30ff-ab89-65a8ac2413e9.visible_Basic.Options" value="host_file host_list mpiNumberOfProcesses prefix prefixOption useHostFile useHostList"/>
+    <stringAttribute key="f6b87212-5b7f-30ff-ab89-65a8ac2413e9.working.directory" value="/home/isd"/>
+    <stringAttribute key="org.eclipse.debug.core.SOURCE_PATH_COMPUTER_ID" value="org.eclipse.ptp.debug.core.sourcePathComputer"/>
+    <booleanAttribute key="org.eclipse.debug.core.appendEnvironmentVariables" value="true"/>
+    <stringAttribute key="org.eclipse.ptp.launch.ARGUMENT_ATTR" value=""/>
+    <booleanAttribute key="org.eclipse.ptp.launch.ATTR_AUTO_RUN_COMMAND" value="false"/>
+    <booleanAttribute key="org.eclipse.ptp.launch.ATTR_CONSOLE" value="true"/>
+    <booleanAttribute key="org.eclipse.ptp.launch.ATTR_COPY_EXECUTABLE_FROM_LOCAL" value="false"/>
+    <stringAttribute key="org.eclipse.ptp.launch.ATTR_DEBUGGER_HOST" value="localhost"/>
+    <stringAttribute key="org.eclipse.ptp.launch.ATTR_REMOTE_EXECUTABLE_PATH" value="/home/isd/eclipse-workspace/HelloMPI/Debug/HelloMPI"/>
+    <booleanAttribute key="org.eclipse.ptp.launch.ATTR_SYNC_AFTER" value="false"/>
+    <booleanAttribute key="org.eclipse.ptp.launch.ATTR_SYNC_BEFORE" value="false"/>
+    <listAttribute key="org.eclipse.ptp.launch.ATTR_SYNC_RULES"/>
+    <stringAttribute key="org.eclipse.ptp.launch.CONFIGURATION_NAME" value="Generic MPICH2 Interactive"/>
+    <stringAttribute key="org.eclipse.ptp.launch.DEBUGGER_ARGS" value="--port=42099 --host=localhost --debugger=gdb-mi"/>
+    <stringAttribute key="org.eclipse.ptp.launch.DEBUGGER_EXECUTABLE_PATH" value="/home/isd/.eclipsesettings/sdm"/>
+    <stringAttribute key="org.eclipse.ptp.launch.DEBUGGER_ID" value="org.eclipse.ptp.debug.sdm"/>
+    <stringAttribute key="org.eclipse.ptp.launch.DEBUGGER_SDM_BACKEND" value="gdb-mi"/>
+    <stringAttribute key="org.eclipse.ptp.launch.DEBUGGER_SDM_EXECUTABLE" value="/usr/local/bin/sdm"/>
+    <stringAttribute key="org.eclipse.ptp.launch.DEBUGGER_START_MODE" value="run"/>
+    <booleanAttribute key="org.eclipse.ptp.launch.DEBUGGER_USE_BUILTIN_SDM" value="true"/>
+    <stringAttribute key="org.eclipse.ptp.launch.PROJECT_ATTR" value="HelloMPI"/>
+    <stringAttribute key="org.eclipse.ptp.launch.RESOURCE_MANAGER_NAME" value="f6b87212-5b7f-30ff-ab89-65a8ac2413e9"/>
+    <booleanAttribute key="org.eclipse.ptp.launch.STOP_IN_MAIN" value="true"/>
+</launchConfiguration>

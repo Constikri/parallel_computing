@@ -1,0 +1,974 @@
+!SESSION 2020-06-22 17:56:18.468 -----------------------------------------------
+eclipse.buildId=4.15.0.I20200305-0155
+java.version=11.0.7
+java.vendor=Ubuntu
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=de_DE
+Framework arguments:  -product org.eclipse.epp.package.parallel.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.parallel.product
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2020-06-22 17:56:33.340
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.tracecompass.analysis.counters.ui.views.countersview" id and the "Counters" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2020-06-22 17:56:33.341
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.tracecompass.analysis.timing.ui.segstore.scatter2" id and the "Segments vs Time" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-06-22 17:58:45.756
+!MESSAGE Error: Cannot run program "g++": Unknown reason
+!STACK 0
+java.io.IOException: Cannot run program "g++": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:352)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:94)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:91)
+	at org.eclipse.cdt.core.CommandLauncher.execute(CommandLauncher.java:193)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runProgramForLanguage(AbstractBuiltinSpecsDetector.java:801)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForLanguage(AbstractBuiltinSpecsDetector.java:726)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:591)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:517)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-06-22 17:58:46.001
+!MESSAGE Error: Cannot run program "g++": Unknown reason
+!STACK 0
+java.io.IOException: Cannot run program "g++": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:352)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:94)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:91)
+	at org.eclipse.cdt.core.CommandLauncher.execute(CommandLauncher.java:193)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runProgramForLanguage(AbstractBuiltinSpecsDetector.java:801)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForLanguage(AbstractBuiltinSpecsDetector.java:726)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:591)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:517)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-06-22 17:58:46.199
+!MESSAGE Error: Cannot run program "g++": Unknown reason
+!STACK 0
+java.io.IOException: Cannot run program "g++": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:352)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:94)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:91)
+	at org.eclipse.cdt.core.CommandLauncher.execute(CommandLauncher.java:193)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runProgramForLanguage(AbstractBuiltinSpecsDetector.java:801)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForLanguage(AbstractBuiltinSpecsDetector.java:726)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:591)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:517)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-06-22 17:58:46.397
+!MESSAGE Error: Cannot run program "g++": Unknown reason
+!STACK 0
+java.io.IOException: Cannot run program "g++": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:352)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:94)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:91)
+	at org.eclipse.cdt.core.CommandLauncher.execute(CommandLauncher.java:193)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runProgramForLanguage(AbstractBuiltinSpecsDetector.java:801)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForLanguage(AbstractBuiltinSpecsDetector.java:726)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:591)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:517)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-06-22 17:58:46.514
+!MESSAGE Indexed 'helloOpenMP' (1 sources, 0 headers) in 0,359 sec: 5 declarations; 9 references; 3 unresolved inclusions; 0 syntax errors; 0 unresolved names (0 %)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-06-22 17:58:46.588
+!MESSAGE Error: Cannot run program "g++": Unknown reason
+!STACK 0
+java.io.IOException: Cannot run program "g++": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:352)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:94)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:91)
+	at org.eclipse.cdt.core.CommandLauncher.execute(CommandLauncher.java:193)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runProgramForLanguage(AbstractBuiltinSpecsDetector.java:801)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForLanguage(AbstractBuiltinSpecsDetector.java:726)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:591)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:517)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-06-22 17:58:46.787
+!MESSAGE Error: Cannot run program "g++": Unknown reason
+!STACK 0
+java.io.IOException: Cannot run program "g++": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:352)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:94)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:91)
+	at org.eclipse.cdt.core.CommandLauncher.execute(CommandLauncher.java:193)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runProgramForLanguage(AbstractBuiltinSpecsDetector.java:801)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForLanguage(AbstractBuiltinSpecsDetector.java:726)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:591)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:517)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jface 2 0 2020-06-22 18:00:52.290
+!MESSAGE Ignored reentrant call while viewer is busy. This is only logged once per viewer instance, but similar calls will still be ignored.
+!STACK 0
+java.lang.RuntimeException
+	at org.eclipse.jface.viewers.ColumnViewer.checkBusy(ColumnViewer.java:764)
+	at org.eclipse.jface.viewers.ColumnViewer.update(ColumnViewer.java:543)
+	at org.eclipse.ui.navigator.CommonViewer.update(CommonViewer.java:515)
+	at org.eclipse.jface.viewers.StructuredViewer.update(StructuredViewer.java:1976)
+	at org.eclipse.ui.internal.navigator.resources.nested.NestedProjectsLabelProvider.lambda$2(NestedProjectsLabelProvider.java:87)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1705)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1692)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)
+
+!ENTRY org.eclipse.debug.ui 4 0 2020-06-22 18:03:59.761
+!MESSAGE Tab group extension: org.eclipse.cdt.launch.applicationProfileLaunchTabGroup for type org.eclipse.cdt.launch.applicationLaunchType for the [profile] mode has been replaced by extension: org.eclipse.cdt.launch.applicationProfileLaunchTabGroup
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-06-22 18:26:21.244
+!MESSAGE Error: Cannot run program "mpicc": Unknown reason
+!STACK 0
+java.io.IOException: Cannot run program "mpicc": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:352)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:94)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:91)
+	at org.eclipse.cdt.core.CommandLauncher.execute(CommandLauncher.java:193)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runProgramForLanguage(AbstractBuiltinSpecsDetector.java:801)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForLanguage(AbstractBuiltinSpecsDetector.java:726)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:591)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:517)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-06-22 18:26:21.255
+!MESSAGE Error: Cannot run program "mpic++": Unknown reason
+!STACK 0
+java.io.IOException: Cannot run program "mpic++": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:352)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:94)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:91)
+	at org.eclipse.cdt.core.CommandLauncher.execute(CommandLauncher.java:193)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runProgramForLanguage(AbstractBuiltinSpecsDetector.java:801)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForLanguage(AbstractBuiltinSpecsDetector.java:726)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:591)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:517)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-06-22 18:26:21.260
+!MESSAGE Error: Cannot run program "mpicc": Unknown reason
+!STACK 0
+java.io.IOException: Cannot run program "mpicc": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:352)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:94)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:91)
+	at org.eclipse.cdt.core.CommandLauncher.execute(CommandLauncher.java:193)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runProgramForLanguage(AbstractBuiltinSpecsDetector.java:801)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForLanguage(AbstractBuiltinSpecsDetector.java:726)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:591)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:517)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-06-22 18:26:21.262
+!MESSAGE Error: Cannot run program "mpic++": Unknown reason
+!STACK 0
+java.io.IOException: Cannot run program "mpic++": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:352)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:94)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:91)
+	at org.eclipse.cdt.core.CommandLauncher.execute(CommandLauncher.java:193)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runProgramForLanguage(AbstractBuiltinSpecsDetector.java:801)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForLanguage(AbstractBuiltinSpecsDetector.java:726)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:591)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:517)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-06-22 18:26:21.271
+!MESSAGE Error: Cannot run program "mpicc": Unknown reason
+!STACK 0
+java.io.IOException: Cannot run program "mpicc": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:352)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:94)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:91)
+	at org.eclipse.cdt.core.CommandLauncher.execute(CommandLauncher.java:193)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runProgramForLanguage(AbstractBuiltinSpecsDetector.java:801)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForLanguage(AbstractBuiltinSpecsDetector.java:726)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:591)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:517)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-06-22 18:26:21.275
+!MESSAGE Error: Cannot run program "mpic++": Unknown reason
+!STACK 0
+java.io.IOException: Cannot run program "mpic++": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:352)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:94)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:91)
+	at org.eclipse.cdt.core.CommandLauncher.execute(CommandLauncher.java:193)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runProgramForLanguage(AbstractBuiltinSpecsDetector.java:801)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForLanguage(AbstractBuiltinSpecsDetector.java:726)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:591)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:517)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-06-22 18:26:21.280
+!MESSAGE Error: Cannot run program "mpicc": Unknown reason
+!STACK 0
+java.io.IOException: Cannot run program "mpicc": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:352)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:94)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:91)
+	at org.eclipse.cdt.core.CommandLauncher.execute(CommandLauncher.java:193)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runProgramForLanguage(AbstractBuiltinSpecsDetector.java:801)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForLanguage(AbstractBuiltinSpecsDetector.java:726)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:591)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:517)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-06-22 18:26:21.283
+!MESSAGE Error: Cannot run program "mpic++": Unknown reason
+!STACK 0
+java.io.IOException: Cannot run program "mpic++": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:352)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:94)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:91)
+	at org.eclipse.cdt.core.CommandLauncher.execute(CommandLauncher.java:193)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runProgramForLanguage(AbstractBuiltinSpecsDetector.java:801)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForLanguage(AbstractBuiltinSpecsDetector.java:726)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:591)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:517)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-06-22 18:26:21.463
+!MESSAGE Indexed 'HelloMPI' (1 sources, 0 headers) in 0,217 sec: 13 declarations; 30 references; 3 unresolved inclusions; 0 syntax errors; 26 unresolved names (38 %)
+
+!ENTRY org.eclipse.ptp.debug.core 4 100 2020-06-22 18:41:30.983
+!MESSAGE PTPDebugCorePlugin Debug Configuration Error
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2020-06-22 19:12:37.452
+!MESSAGE Connection to http://mirror.nbtelecom.com.br/eclipse/eclipse/updates/4.15/R-4.15-202003050155/plugins/org.eclipse.jdt.core.compiler.batch_3.21.0.v20200304-1404.jar failed on Connect to mirror.nbtelecom.com.br:80 [mirror.nbtelecom.com.br/189.45.5.90] failed: connect timed out. Retry attempt 0 started
+!STACK 0
+org.apache.http.conn.ConnectTimeoutException: Connect to mirror.nbtelecom.com.br:80 [mirror.nbtelecom.com.br/189.45.5.90] failed: connect timed out
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:374)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1000)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:992)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:988)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 13 more
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2020-06-22 19:15:09.218
+!MESSAGE Connection to https://download.eclipse.org/releases/2020-06/202006171000/plugins/org.eclipse.cdt.managedbuilder.core_8.8.1.202004251814.jar.pack.gz failed on Connection reset. Retry attempt 0 started
+!STACK 0
+javax.net.ssl.SSLException: Connection reset
+	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:127)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:326)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:269)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:264)
+	at java.base/sun.security.ssl.SSLSocketImpl.handleException(SSLSocketImpl.java:1306)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:832)
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:137)
+	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:153)
+	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:280)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163)
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:157)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1000)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:992)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:988)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+	Suppressed: java.net.SocketException: Datenübergabe unterbrochen (broken pipe) (Write failed)
+		at java.base/java.net.SocketOutputStream.socketWrite0(Native Method)
+		at java.base/java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:110)
+		at java.base/java.net.SocketOutputStream.write(SocketOutputStream.java:150)
+		at java.base/sun.security.ssl.SSLSocketOutputRecord.encodeAlert(SSLSocketOutputRecord.java:81)
+		at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:357)
+		... 25 more
+Caused by: java.net.SocketException: Connection reset
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:186)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:448)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:68)
+	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1096)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:816)
+	... 21 more
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2020-06-22 19:16:43.465
+!MESSAGE Connection to http://mirror.nbtelecom.com.br/eclipse/releases/2020-06/202006171000/plugins/org.apache.sshd.osgi_2.4.0.v20200318-1614.jar.pack.gz failed on Connect to mirror.nbtelecom.com.br:80 [mirror.nbtelecom.com.br/189.45.5.90] failed: connect timed out. Retry attempt 0 started
+!STACK 0
+org.apache.http.conn.ConnectTimeoutException: Connect to mirror.nbtelecom.com.br:80 [mirror.nbtelecom.com.br/189.45.5.90] failed: connect timed out
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:374)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1000)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:992)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:988)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 13 more
+!SESSION 2020-06-22 20:03:50.352 -----------------------------------------------
+eclipse.buildId=4.15.0.I20200305-0155
+java.version=11.0.7
+java.vendor=Ubuntu
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=de_DE
+Framework arguments:  -product org.eclipse.epp.package.parallel.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.parallel.product
+
+!ENTRY org.eclipse.ptp.core 4 4 2020-06-22 20:04:39.897
+!MESSAGE e0a3e68f-cd46-443f-9224-7fcdb6180223: FAILED
+Can't locate Devel/GDB.pm in @INC (you may need to install the Devel::GDB module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.26.1 /usr/local/share/perl/5.26.1 /usr/lib/x86_64-linux-gnu/perl5/5.26 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.26 /usr/share/perl/5.26 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at /home/isd/.eclipsesettings/rms/MPICH2/start_debug_job.pl line 17.
+BEGIN failed--compilation aborted at /home/isd/.eclipsesettings/rms/MPICH2/start_debug_job.pl line 17.
+
+
+
+!ENTRY org.eclipse.debug.ui 4 0 2020-06-22 20:04:53.331
+!MESSAGE Tab group extension: org.eclipse.cdt.launch.applicationProfileLaunchTabGroup for type org.eclipse.cdt.launch.applicationLaunchType for the [profile] mode has been replaced by extension: org.eclipse.cdt.launch.applicationProfileLaunchTabGroup
+
+!ENTRY org.eclipse.ptp.core 4 4 2020-06-22 20:05:13.848
+!MESSAGE ca1bdf19-e718-4fc3-a1fe-101bf827e800: FAILED
+Can't locate Devel/GDB.pm in @INC (you may need to install the Devel::GDB module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.26.1 /usr/local/share/perl/5.26.1 /usr/lib/x86_64-linux-gnu/perl5/5.26 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.26 /usr/share/perl/5.26 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at /home/isd/.eclipsesettings/rms/MPICH2/start_debug_job.pl line 17.
+BEGIN failed--compilation aborted at /home/isd/.eclipsesettings/rms/MPICH2/start_debug_job.pl line 17.
+
+
+!SESSION 2020-06-22 20:08:21.255 -----------------------------------------------
+eclipse.buildId=4.16.0.I20200604-0540
+java.version=11.0.7
+java.vendor=Ubuntu
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=de_DE
+Framework arguments:  -product org.eclipse.epp.package.parallel.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.parallel.product
+
+!ENTRY org.eclipse.ptp.core 4 4 2020-06-22 20:08:42.648
+!MESSAGE ac3dae98-a1dc-4fa4-8f9f-369910441b9d: FAILED
+Can't locate Devel/GDB.pm in @INC (you may need to install the Devel::GDB module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.26.1 /usr/local/share/perl/5.26.1 /usr/lib/x86_64-linux-gnu/perl5/5.26 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.26 /usr/share/perl/5.26 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at /home/isd/.eclipsesettings/rms/MPICH2/start_debug_job.pl line 17.
+BEGIN failed--compilation aborted at /home/isd/.eclipsesettings/rms/MPICH2/start_debug_job.pl line 17.
+
+
+
+!ENTRY org.eclipse.equinox.p2.operations 2 0 2020-06-22 20:12:05.257
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10001 2020-06-22 20:12:05.257
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2020-06-22 20:12:05.257
+!MESSAGE "Parallel Tools Platform" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2020-06-22 20:12:05.257
+!MESSAGE "PTP Contributed Target System Configurations" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2020-06-22 20:12:05.257
+!MESSAGE "PTP Scalable Debug Manager (SDM)" will be ignored because a newer version is already installed. 
+
+!ENTRY org.eclipse.equinox.p2.operations 2 0 2020-06-22 20:12:05.263
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10001 2020-06-22 20:12:05.263
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2020-06-22 20:12:05.263
+!MESSAGE "Parallel Tools Platform" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2020-06-22 20:12:05.263
+!MESSAGE "PTP Contributed Target System Configurations" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2020-06-22 20:12:05.263
+!MESSAGE "PTP Scalable Debug Manager (SDM)" will be ignored because a newer version is already installed. 
+!SESSION 2020-06-22 20:12:32.790 -----------------------------------------------
+eclipse.buildId=4.16.0.I20200604-0540
+java.version=11.0.7
+java.vendor=Ubuntu
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=de_DE
+Framework arguments:  -product org.eclipse.epp.package.parallel.product
+Command-line arguments:  -data file:/home/isd/eclipse-workspace/ -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.parallel.product
+
+!ENTRY org.eclipse.ptp.core 4 4 2020-06-22 20:13:04.729
+!MESSAGE 1ef3b0d9-8ea0-4b01-b0ae-f652debc2dc0: FAILED
+Can't locate Devel/GDB.pm in @INC (you may need to install the Devel::GDB module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.26.1 /usr/local/share/perl/5.26.1 /usr/lib/x86_64-linux-gnu/perl5/5.26 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.26 /usr/share/perl/5.26 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at /home/isd/.eclipsesettings/rms/MPICH2/start_debug_job.pl line 17.
+BEGIN failed--compilation aborted at /home/isd/.eclipsesettings/rms/MPICH2/start_debug_job.pl line 17.
+
+
+
+!ENTRY org.eclipse.debug.ui 4 0 2020-06-22 21:08:27.963
+!MESSAGE Tab group extension: org.eclipse.cdt.launch.applicationProfileLaunchTabGroup for type org.eclipse.cdt.launch.applicationLaunchType for the [profile] mode has been replaced by extension: org.eclipse.cdt.launch.applicationProfileLaunchTabGroup
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2020-06-22 21:11:21.385
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 4 10050 2020-06-22 21:11:21.385
+!MESSAGE Cannot complete the request.  See the error log for details.
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10004 2020-06-22 21:11:21.385
+!MESSAGE "Parallel Tools Platform" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10004 2020-06-22 21:11:21.385
+!MESSAGE "PTP Scalable Debug Manager (SDM)" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10004 2020-06-22 21:11:21.385
+!MESSAGE "PTP External Tools Framework TAU Extension for Fortran" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10004 2020-06-22 21:11:21.385
+!MESSAGE "PTP Fortran Support" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10004 2020-06-22 21:11:21.385
+!MESSAGE "PTP Contributed Target System Configurations" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10004 2020-06-22 21:11:21.385
+!MESSAGE "PTP Parallel Language Development Tools Fortran Support" will be ignored because a newer version is already installed. 
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2020-06-22 21:11:21.391
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 4 10050 2020-06-22 21:11:21.391
+!MESSAGE Cannot complete the request.  See the error log for details.
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10004 2020-06-22 21:11:21.392
+!MESSAGE "Parallel Tools Platform" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10004 2020-06-22 21:11:21.392
+!MESSAGE "PTP Scalable Debug Manager (SDM)" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10004 2020-06-22 21:11:21.392
+!MESSAGE "PTP External Tools Framework TAU Extension for Fortran" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10004 2020-06-22 21:11:21.392
+!MESSAGE "PTP Fortran Support" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10004 2020-06-22 21:11:21.392
+!MESSAGE "PTP Contributed Target System Configurations" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10004 2020-06-22 21:11:21.392
+!MESSAGE "PTP Parallel Language Development Tools Fortran Support" will be ignored because a newer version is already installed. 
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2020-06-22 21:11:21.405
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 4 10050 2020-06-22 21:11:21.405
+!MESSAGE Cannot complete the request.  See the error log for details.
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10004 2020-06-22 21:11:21.405
+!MESSAGE "Parallel Tools Platform" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10004 2020-06-22 21:11:21.405
+!MESSAGE "PTP Scalable Debug Manager (SDM)" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10004 2020-06-22 21:11:21.405
+!MESSAGE "PTP External Tools Framework TAU Extension for Fortran" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10004 2020-06-22 21:11:21.405
+!MESSAGE "PTP Fortran Support" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10004 2020-06-22 21:11:21.405
+!MESSAGE "PTP Contributed Target System Configurations" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10004 2020-06-22 21:11:21.405
+!MESSAGE "PTP Parallel Language Development Tools Fortran Support" will be ignored because a newer version is already installed. 
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2020-06-22 21:11:21.405
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 4 10050 2020-06-22 21:11:21.406
+!MESSAGE Cannot complete the request.  See the error log for details.
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10004 2020-06-22 21:11:21.406
+!MESSAGE "Parallel Tools Platform" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10004 2020-06-22 21:11:21.406
+!MESSAGE "PTP Scalable Debug Manager (SDM)" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10004 2020-06-22 21:11:21.406
+!MESSAGE "PTP External Tools Framework TAU Extension for Fortran" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10004 2020-06-22 21:11:21.406
+!MESSAGE "PTP Fortran Support" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10004 2020-06-22 21:11:21.406
+!MESSAGE "PTP Contributed Target System Configurations" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10004 2020-06-22 21:11:21.406
+!MESSAGE "PTP Parallel Language Development Tools Fortran Support" will be ignored because a newer version is already installed. 
+!SESSION 2020-06-22 21:11:47.914 -----------------------------------------------
+eclipse.buildId=4.16.0.I20200604-0540
+java.version=11.0.7
+java.vendor=Ubuntu
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=de_DE
+Framework arguments:  -product org.eclipse.epp.package.parallel.product
+Command-line arguments:  -data file:/home/isd/eclipse-workspace/ -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.parallel.product
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2020-06-22 21:13:14.504
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 4 10050 2020-06-22 21:13:14.504
+!MESSAGE Cannot complete the request.  See the error log for details.
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10004 2020-06-22 21:13:14.504
+!MESSAGE "Parallel Tools Platform" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10004 2020-06-22 21:13:14.504
+!MESSAGE "PTP ETFw PerfSuite" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10004 2020-06-22 21:13:14.504
+!MESSAGE "PTP External Tools Framework TAU Extension for Fortran" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10004 2020-06-22 21:13:14.504
+!MESSAGE "PTP Fortran Support" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10004 2020-06-22 21:13:14.504
+!MESSAGE "PTP Contributed Target System Configurations" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10004 2020-06-22 21:13:14.504
+!MESSAGE "PTP External Tools Framework TAU Extension" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10004 2020-06-22 21:13:14.504
+!MESSAGE "PTP Scalable Debug Manager (SDM)" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10004 2020-06-22 21:13:14.504
+!MESSAGE "PTP Parallel Language Development Tools Fortran Support" will be ignored because a newer version is already installed. 
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2020-06-22 21:13:14.514
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 4 10050 2020-06-22 21:13:14.515
+!MESSAGE Cannot complete the request.  See the error log for details.
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10004 2020-06-22 21:13:14.515
+!MESSAGE "Parallel Tools Platform" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10004 2020-06-22 21:13:14.515
+!MESSAGE "PTP ETFw PerfSuite" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10004 2020-06-22 21:13:14.515
+!MESSAGE "PTP External Tools Framework TAU Extension for Fortran" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10004 2020-06-22 21:13:14.515
+!MESSAGE "PTP Fortran Support" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10004 2020-06-22 21:13:14.515
+!MESSAGE "PTP Contributed Target System Configurations" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10004 2020-06-22 21:13:14.515
+!MESSAGE "PTP External Tools Framework TAU Extension" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10004 2020-06-22 21:13:14.515
+!MESSAGE "PTP Scalable Debug Manager (SDM)" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10004 2020-06-22 21:13:14.515
+!MESSAGE "PTP Parallel Language Development Tools Fortran Support" will be ignored because a newer version is already installed. 
+
+!ENTRY org.eclipse.ptp.core 4 4 2020-06-22 21:14:02.763
+!MESSAGE 1990784a-891b-4d08-9fc8-f6be941a0587: FAILED
+Can't locate Devel/GDB.pm in @INC (you may need to install the Devel::GDB module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.26.1 /usr/local/share/perl/5.26.1 /usr/lib/x86_64-linux-gnu/perl5/5.26 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.26 /usr/share/perl/5.26 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at /home/isd/.eclipsesettings/rms/MPICH2/start_debug_job.pl line 17.
+BEGIN failed--compilation aborted at /home/isd/.eclipsesettings/rms/MPICH2/start_debug_job.pl line 17.
+
+
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2020-06-22 21:24:45.620
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 4 10050 2020-06-22 21:24:45.621
+!MESSAGE Cannot complete the request.  See the error log for details.
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10004 2020-06-22 21:24:45.621
+!MESSAGE "Parallel Tools Platform" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10004 2020-06-22 21:24:45.621
+!MESSAGE "PTP ETFw PerfSuite" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10004 2020-06-22 21:24:45.621
+!MESSAGE "PTP External Tools Framework TAU Extension for Fortran" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10004 2020-06-22 21:24:45.621
+!MESSAGE "PTP Fortran Support" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10004 2020-06-22 21:24:45.621
+!MESSAGE "PTP Contributed Target System Configurations" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10004 2020-06-22 21:24:45.621
+!MESSAGE "PTP External Tools Framework TAU Extension" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10004 2020-06-22 21:24:45.621
+!MESSAGE "PTP Scalable Debug Manager (SDM)" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10004 2020-06-22 21:24:45.621
+!MESSAGE "PTP Parallel Language Development Tools Fortran Support" will be ignored because a newer version is already installed. 
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2020-06-22 21:24:45.627
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 4 10050 2020-06-22 21:24:45.627
+!MESSAGE Cannot complete the request.  See the error log for details.
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10004 2020-06-22 21:24:45.627
+!MESSAGE "Parallel Tools Platform" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10004 2020-06-22 21:24:45.627
+!MESSAGE "PTP ETFw PerfSuite" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10004 2020-06-22 21:24:45.627
+!MESSAGE "PTP External Tools Framework TAU Extension for Fortran" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10004 2020-06-22 21:24:45.627
+!MESSAGE "PTP Fortran Support" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10004 2020-06-22 21:24:45.627
+!MESSAGE "PTP Contributed Target System Configurations" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10004 2020-06-22 21:24:45.627
+!MESSAGE "PTP External Tools Framework TAU Extension" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10004 2020-06-22 21:24:45.627
+!MESSAGE "PTP Scalable Debug Manager (SDM)" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10004 2020-06-22 21:24:45.627
+!MESSAGE "PTP Parallel Language Development Tools Fortran Support" will be ignored because a newer version is already installed. 
+!SESSION 2020-06-22 21:25:14.490 -----------------------------------------------
+eclipse.buildId=4.15.0.I20200305-0155
+java.version=11.0.7
+java.vendor=Ubuntu
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=de_DE
+Framework arguments:  -product org.eclipse.epp.package.parallel.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.parallel.product
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2020-06-22 21:25:42.387
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.tracecompass.analysis.counters.ui.views.countersview" id and the "Counters" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2020-06-22 21:25:42.389
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.tracecompass.analysis.timing.ui.segstore.scatter2" id and the "Segments vs Time" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2020-06-22 21:25:42.390
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.ptp.etfw.feedback.perfsuite.view" id and the "PerfSuite Feedback Items" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2020-06-22 21:25:42.390
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.ptp.etfw.tau.perfdmf.views.PerfDMFView" id and the "Performance Data Manager" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2020-06-22 21:25:42.390
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.ptp.gem.views.GemConsole" id and the "GEM Console" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2020-06-22 21:25:42.390
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.ptp.gem.views.GemAnalyzer" id and the "GEM Analyzer" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2020-06-22 21:25:42.390
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.ptp.gem.views.GemBrowser" id and the "GEM Browser" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2020-06-22 21:25:42.391
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.ptp.pldt.upc.views.upcArtifactView" id and the "UPC Artifact View" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.ptp.core 4 4 2020-06-22 21:25:52.141
+!MESSAGE c016f86e-c2cb-477d-b803-649790243c2c: FAILED
+Can't locate Devel/GDB.pm in @INC (you may need to install the Devel::GDB module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.26.1 /usr/local/share/perl/5.26.1 /usr/lib/x86_64-linux-gnu/perl5/5.26 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.26 /usr/share/perl/5.26 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at /home/isd/.eclipsesettings/rms/MPICH2/start_debug_job.pl line 17.
+BEGIN failed--compilation aborted at /home/isd/.eclipsesettings/rms/MPICH2/start_debug_job.pl line 17.
+
+
+!SESSION 2020-06-22 21:49:07.932 -----------------------------------------------
+eclipse.buildId=4.15.0.I20200305-0155
+java.version=11.0.7
+java.vendor=Ubuntu
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=de_DE
+Framework arguments:  -product org.eclipse.epp.package.parallel.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.parallel.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2020-06-22 21:49:12.139
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.ptp.core 4 4 2020-06-22 21:49:49.613
+!MESSAGE 37d228e7-ce7f-41c1-bca6-eef0f13f3d14: FAILED
+Can't locate Devel/GDB.pm in @INC (you may need to install the Devel::GDB module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.26.1 /usr/local/share/perl/5.26.1 /usr/lib/x86_64-linux-gnu/perl5/5.26 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.26 /usr/share/perl/5.26 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at /home/isd/.eclipsesettings/rms/MPICH2/start_debug_job.pl line 17.
+BEGIN failed--compilation aborted at /home/isd/.eclipsesettings/rms/MPICH2/start_debug_job.pl line 17.
+
+
+!SESSION 2020-06-22 22:33:27.838 -----------------------------------------------
+eclipse.buildId=4.15.0.I20200305-0155
+java.version=11.0.7
+java.vendor=Ubuntu
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=de_DE
+Framework arguments:  -product org.eclipse.epp.package.parallel.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.parallel.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2020-06-22 22:33:31.385
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.ptp.core 4 4 2020-06-22 22:33:50.509
+!MESSAGE 4ea6e5f8-e8d4-4c38-8073-192a72c971ba: FAILED
+Can't locate Devel/GDB.pm in @INC (you may need to install the Devel::GDB module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.26.1 /usr/local/share/perl/5.26.1 /usr/lib/x86_64-linux-gnu/perl5/5.26 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.26 /usr/share/perl/5.26 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at /home/isd/.eclipsesettings/rms/MPICH2/start_debug_job.pl line 17.
+BEGIN failed--compilation aborted at /home/isd/.eclipsesettings/rms/MPICH2/start_debug_job.pl line 17.
+
+
+!SESSION 2020-06-22 22:34:40.341 -----------------------------------------------
+eclipse.buildId=4.15.0.I20200305-0155
+java.version=11.0.7
+java.vendor=Ubuntu
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=de_DE
+Framework arguments:  -product org.eclipse.epp.package.parallel.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.parallel.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2020-06-22 22:34:44.254
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.ptp.core 4 4 2020-06-22 22:35:06.876
+!MESSAGE f5538b3f-c33b-4d5b-803f-648fb2f9ed01: FAILED
+Can't locate Devel/GDB.pm in @INC (you may need to install the Devel::GDB module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.26.1 /usr/local/share/perl/5.26.1 /usr/lib/x86_64-linux-gnu/perl5/5.26 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.26 /usr/share/perl/5.26 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at /home/isd/.eclipsesettings/rms/MPICH2/start_debug_job.pl line 17.
+BEGIN failed--compilation aborted at /home/isd/.eclipsesettings/rms/MPICH2/start_debug_job.pl line 17.
+
+
+!SESSION 2020-06-22 22:37:17.560 -----------------------------------------------
+eclipse.buildId=4.15.0.I20200305-0155
+java.version=11.0.7
+java.vendor=Ubuntu
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=de_DE
+Framework arguments:  -product org.eclipse.epp.package.parallel.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.parallel.product
+
+!ENTRY org.eclipse.ptp.core 4 4 2020-06-22 22:37:39.785
+!MESSAGE c7b4d453-38e9-4ca4-9d05-37cf2b2d8a16: FAILED
+Can't locate Devel/GDB.pm in @INC (you may need to install the Devel::GDB module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.26.1 /usr/local/share/perl/5.26.1 /usr/lib/x86_64-linux-gnu/perl5/5.26 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.26 /usr/share/perl/5.26 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at /home/isd/.eclipsesettings/rms/MPICH2/start_debug_job.pl line 17.
+BEGIN failed--compilation aborted at /home/isd/.eclipsesettings/rms/MPICH2/start_debug_job.pl line 17.
+
+
+
+!ENTRY org.eclipse.debug.ui 4 0 2020-06-22 22:37:46.564
+!MESSAGE Tab group extension: org.eclipse.cdt.launch.applicationProfileLaunchTabGroup for type org.eclipse.cdt.launch.applicationLaunchType for the [profile] mode has been replaced by extension: org.eclipse.cdt.launch.applicationProfileLaunchTabGroup
+
+!ENTRY org.eclipse.ptp.core 4 4 2020-06-22 22:53:44.441
+!MESSAGE 8b93815f-4a75-41b9-98c8-f89f8c2ecffd: FAILED
+Can't locate Devel/GDB.pm in @INC (you may need to install the Devel::GDB module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.26.1 /usr/local/share/perl/5.26.1 /usr/lib/x86_64-linux-gnu/perl5/5.26 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.26 /usr/share/perl/5.26 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at /home/isd/.eclipsesettings/rms/MPICH2/start_debug_job.pl line 17.
+BEGIN failed--compilation aborted at /home/isd/.eclipsesettings/rms/MPICH2/start_debug_job.pl line 17.
+
+
+!SESSION 2020-06-22 22:54:00.324 -----------------------------------------------
+eclipse.buildId=4.15.0.I20200305-0155
+java.version=11.0.7
+java.vendor=Ubuntu
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=de_DE
+Framework arguments:  -product org.eclipse.epp.package.parallel.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.parallel.product
+
+!ENTRY org.eclipse.ptp.core 4 4 2020-06-22 22:54:20.686
+!MESSAGE 97211cca-a951-47db-ba26-5e4a658acd15: FAILED
+Can't locate Devel/GDB.pm in @INC (you may need to install the Devel::GDB module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.26.1 /usr/local/share/perl/5.26.1 /usr/lib/x86_64-linux-gnu/perl5/5.26 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.26 /usr/share/perl/5.26 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at /home/isd/.eclipsesettings/rms/MPICH2/start_debug_job.pl line 17.
+BEGIN failed--compilation aborted at /home/isd/.eclipsesettings/rms/MPICH2/start_debug_job.pl line 17.
+
+
+!SESSION 2020-06-22 22:55:05.518 -----------------------------------------------
+eclipse.buildId=4.15.0.I20200305-0155
+java.version=11.0.7
+java.vendor=Ubuntu
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=de_DE
+Framework arguments:  -product org.eclipse.epp.package.parallel.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.parallel.product
+
+!ENTRY org.eclipse.ptp.core 4 4 2020-06-22 22:55:22.403
+!MESSAGE 54b8387f-ad77-400f-9fd8-c9452eedae24: FAILED
+Can't locate Devel/GDB.pm in @INC (you may need to install the Devel::GDB module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.26.1 /usr/local/share/perl/5.26.1 /usr/lib/x86_64-linux-gnu/perl5/5.26 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.26 /usr/share/perl/5.26 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at /home/isd/.eclipsesettings/rms/MPICH2/start_debug_job.pl line 17.
+BEGIN failed--compilation aborted at /home/isd/.eclipsesettings/rms/MPICH2/start_debug_job.pl line 17.
+
+
+
+!ENTRY org.eclipse.ptp.core 4 4 2020-06-22 23:27:12.176
+!MESSAGE c97943f3-ba9d-44f6-a7d0-869d27c857d5: FAILED
+Can't locate Devel/GDB.pm in @INC (you may need to install the Devel::GDB module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.26.1 /usr/local/share/perl/5.26.1 /usr/lib/x86_64-linux-gnu/perl5/5.26 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.26 /usr/share/perl/5.26 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at /home/isd/.eclipsesettings/rms/MPICH2/start_debug_job.pl line 17.
+BEGIN failed--compilation aborted at /home/isd/.eclipsesettings/rms/MPICH2/start_debug_job.pl line 17.
+
+
+!SESSION 2020-06-22 23:27:36.052 -----------------------------------------------
+eclipse.buildId=4.15.0.I20200305-0155
+java.version=11.0.7
+java.vendor=Ubuntu
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=de_DE
+Framework arguments:  -product org.eclipse.epp.package.parallel.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.parallel.product
+
+!ENTRY org.eclipse.ptp.core 4 4 2020-06-22 23:27:56.468
+!MESSAGE b2d27016-0264-4279-873e-ff37521d260a: FAILED
+Can't locate Devel/GDB.pm in @INC (you may need to install the Devel::GDB module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.26.1 /usr/local/share/perl/5.26.1 /usr/lib/x86_64-linux-gnu/perl5/5.26 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.26 /usr/share/perl/5.26 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at /home/isd/.eclipsesettings/rms/MPICH2/start_debug_job.pl line 17.
+BEGIN failed--compilation aborted at /home/isd/.eclipsesettings/rms/MPICH2/start_debug_job.pl line 17.
+
+
+
+!ENTRY org.eclipse.ptp.core 4 4 2020-06-22 23:41:56.196
+!MESSAGE 37ec5ffc-f322-41a0-b064-d8627ea9d11b: FAILED
+Can't locate Devel/GDB.pm in @INC (you may need to install the Devel::GDB module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.26.1 /usr/local/share/perl/5.26.1 /usr/lib/x86_64-linux-gnu/perl5/5.26 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.26 /usr/share/perl/5.26 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at /home/isd/.eclipsesettings/rms/MPICH2/start_debug_job.pl line 17.
+BEGIN failed--compilation aborted at /home/isd/.eclipsesettings/rms/MPICH2/start_debug_job.pl line 17.
+
+
+
+!ENTRY org.eclipse.ptp.core 4 4 2020-06-22 23:44:16.214
+!MESSAGE 113dec0e-f771-4d2e-8cbb-79bc30a38fdc: FAILED
+Can't locate Devel/GDB.pm in @INC (you may need to install the Devel::GDB module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.26.1 /usr/local/share/perl/5.26.1 /usr/lib/x86_64-linux-gnu/perl5/5.26 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.26 /usr/share/perl/5.26 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at /home/isd/.eclipsesettings/rms/MPICH2/start_debug_job.pl line 17.
+BEGIN failed--compilation aborted at /home/isd/.eclipsesettings/rms/MPICH2/start_debug_job.pl line 17.
+
+
+!SESSION 2020-06-22 23:52:57.295 -----------------------------------------------
+eclipse.buildId=4.16.0.I20200604-0540
+java.version=11.0.7
+java.vendor=Ubuntu
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=de_DE
+Framework arguments:  -product org.eclipse.epp.package.parallel.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.parallel.product
+
+!ENTRY org.eclipse.ptp.core 4 4 2020-06-22 23:53:23.195
+!MESSAGE e203b909-8b85-4fb4-af46-2ae80499c8bc: FAILED
+Can't locate Expect.pm in @INC (you may need to install the Expect module) (@INC contains: /home/isd/.cpan/build/Devel-GDB-2.02-0/lib/ /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.26.1 /usr/local/share/perl/5.26.1 /usr/lib/x86_64-linux-gnu/perl5/5.26 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.26 /usr/share/perl/5.26 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at /home/isd/.cpan/build/Devel-GDB-2.02-0/lib/Devel/GDB/LowLevel.pm line 182.
+#PTP job_id=3112
+
+
+
+!ENTRY org.eclipse.ptp.core 4 4 2020-06-22 23:54:51.922
+!MESSAGE d16e8d9e-2e47-4f76-9387-13ed3795fb1c: FAILED
+Can't locate Expect.pm in @INC (you may need to install the Expect module) (@INC contains: /home/isd/.cpan/build/Devel-GDB-2.02-0/lib/ /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.26.1 /usr/local/share/perl/5.26.1 /usr/lib/x86_64-linux-gnu/perl5/5.26 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.26 /usr/share/perl/5.26 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at /home/isd/.cpan/build/Devel-GDB-2.02-0/lib/Devel/GDB/LowLevel.pm line 182.
+#PTP job_id=3146
+
+
+
+!ENTRY org.eclipse.ptp.core 4 4 2020-06-22 23:56:21.362
+!MESSAGE 32f5c605-5938-4934-86d2-c2e7577a4509: FAILED
+Can't locate Expect.pm in @INC (you may need to install the Expect module) (@INC contains: /home/isd/.cpan/build/Devel-GDB-2.02-0/lib/ /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.26.1 /usr/local/share/perl/5.26.1 /usr/lib/x86_64-linux-gnu/perl5/5.26 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.26 /usr/share/perl/5.26 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at /home/isd/.cpan/build/Devel-GDB-2.02-0/lib/Devel/GDB/LowLevel.pm line 182.
+#PTP job_id=3225
+
+
+
+!ENTRY org.eclipse.ptp.core 4 4 2020-06-23 00:01:02.310
+!MESSAGE e8991258-2eeb-44bb-94f4-a5145e54c075: FAILED
+IO::Pty version 1.11 required--this is only version 1.08 at /home/isd/.cpan/build/Devel-GDB-2.02-0/lib/Expect.pm line 23.
+BEGIN failed--compilation aborted at /home/isd/.cpan/build/Devel-GDB-2.02-0/lib/Expect.pm line 23.
+Compilation failed in require at /home/isd/.cpan/build/Devel-GDB-2.02-0/lib/Devel/GDB/LowLevel.pm line 182.
+#PTP job_id=3281
+
+
+!SESSION 2020-06-23 00:04:26.214 -----------------------------------------------
+eclipse.buildId=4.15.0.I20200305-0155
+java.version=11.0.7
+java.vendor=Ubuntu
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=de_DE
+Framework arguments:  -product org.eclipse.epp.package.parallel.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.parallel.product
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2020-06-23 00:04:43.389
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.tracecompass.analysis.counters.ui.views.countersview" id and the "Counters" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2020-06-23 00:04:43.394
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.tracecompass.analysis.timing.ui.segstore.scatter2" id and the "Segments vs Time" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2020-06-23 00:04:43.394
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.ptp.gem.views.GemConsole" id and the "GEM Console" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2020-06-23 00:04:43.394
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.ptp.gem.views.GemAnalyzer" id and the "GEM Analyzer" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2020-06-23 00:04:43.395
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.ptp.gem.views.GemBrowser" id and the "GEM Browser" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2020-06-23 00:04:43.395
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.ptp.pldt.upc.views.upcArtifactView" id and the "UPC Artifact View" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2020-06-23 00:04:43.395
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.ptp.etfw.feedback.perfsuite.view" id and the "PerfSuite Feedback Items" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2020-06-23 00:04:43.395
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.ptp.etfw.tau.perfdmf.views.PerfDMFView" id and the "Performance Data Manager" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.ptp.core 4 4 2020-06-23 00:04:47.547
+!MESSAGE 0a8f6483-e914-4b72-bb07-a9e302f28e43: FAILED
+IO::Pty version 1.11 required--this is only version 1.08 at /home/isd/.cpan/build/Devel-GDB-2.02-0/lib/Expect.pm line 23.
+BEGIN failed--compilation aborted at /home/isd/.cpan/build/Devel-GDB-2.02-0/lib/Expect.pm line 23.
+Compilation failed in require at /home/isd/.cpan/build/Devel-GDB-2.02-0/lib/Devel/GDB/LowLevel.pm line 182.
+#PTP job_id=3506
+
+
+!SESSION 2020-06-23 00:25:55.163 -----------------------------------------------
+eclipse.buildId=4.16.0.I20200604-0540
+java.version=11.0.7
+java.vendor=Ubuntu
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=de_DE
+Framework arguments:  -product org.eclipse.epp.package.parallel.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.parallel.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2020-06-23 00:26:07.540
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.ptp.core 4 4 2020-06-23 00:26:19.483
+!MESSAGE 508fd118-bbea-435e-8b69-5c3f4994ee6a: FAILED
+IO::Pty version 1.11 required--this is only version 1.08 at /home/isd/.cpan/build/Devel-GDB-2.02-0/lib/Expect.pm line 23.
+BEGIN failed--compilation aborted at /home/isd/.cpan/build/Devel-GDB-2.02-0/lib/Expect.pm line 23.
+Compilation failed in require at /home/isd/.cpan/build/Devel-GDB-2.02-0/lib/Devel/GDB/LowLevel.pm line 182.
+#PTP job_id=4259
+
+
+!SESSION 2020-07-02 16:01:13.004 -----------------------------------------------
+eclipse.buildId=4.16.0.I20200604-0540
+java.version=11.0.7
+java.vendor=Ubuntu
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=de_DE
+Framework arguments:  -product org.eclipse.epp.package.parallel.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.parallel.product
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-07-02 17:12:12.480
+!MESSAGE Indexed 'matrix_mult_mpi' (1 sources, 199 headers) in 5,92 sec: 24.519 declarations; 40.630 references; 0 unresolved inclusions; 0 syntax errors; 4 unresolved names (0,0061 %)
+
+!ENTRY org.eclipse.ptp.core 4 4 2020-07-02 18:51:56.587
+!MESSAGE 57cbd0d8-8f50-4d59-bf76-fc19660e4613: FAILED
+Can't locate Devel/GDB.pm in @INC (you may need to install the Devel::GDB module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.26.1 /usr/local/share/perl/5.26.1 /usr/lib/x86_64-linux-gnu/perl5/5.26 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.26 /usr/share/perl/5.26 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at /home/isd/.eclipsesettings/rms/MPICH2/start_debug_job.pl line 17.
+BEGIN failed--compilation aborted at /home/isd/.eclipsesettings/rms/MPICH2/start_debug_job.pl line 17.
+
+
+
+!ENTRY org.eclipse.debug.ui 4 0 2020-07-02 18:52:17.741
+!MESSAGE Tab group extension: org.eclipse.cdt.launch.applicationProfileLaunchTabGroup for type org.eclipse.cdt.launch.applicationLaunchType for the [profile] mode has been replaced by extension: org.eclipse.cdt.launch.applicationProfileLaunchTabGroup
+!SESSION 2020-07-03 15:26:07.929 -----------------------------------------------
+eclipse.buildId=4.16.0.I20200604-0540
+java.version=11.0.7
+java.vendor=Ubuntu
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=de_DE
+Framework arguments:  -product org.eclipse.epp.package.parallel.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.parallel.product
+
+!ENTRY org.eclipse.ui 4 4 2020-07-03 15:34:27.818
+!MESSAGE Conflicting handlers for org.eclipse.ui.navigate.backwardHistory: {ActionHandler(org.eclipse.ui.internal.NavigationHistoryAction@3694461d)} vs {ActionHandler(org.eclipse.ui.internal.dialogs.PreferencePageHistory$1@57caa7)} in: PartImpl (org.eclipse.e4.ui.compatibility.editor)  removeOnHide org.eclipse.ui.DefaultTextEditorContext
+!STACK 0
+java.lang.IllegalStateException: Conflicting handlers: {[ActionHandler(org.eclipse.ui.internal.NavigationHistoryAction@3694461d),  for 'org.eclipse.ui.navigate.backwardHistory',  in TrimmedWindowImpl (IDEWindow) Context, activeWhen=AndExpression [children=[ActiveShellExpression(Shell {eclipse-workspace - /home/isd/.gitconfig - Eclipse IDE}), WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@310f8a05)]], active=true, sourcePriority=17408, participating=true]} vs {[ActionHandler(org.eclipse.ui.internal.dialogs.PreferencePageHistory$1@57caa7),  for 'org.eclipse.ui.navigate.backwardHistory',  in WorkbenchContext, activeWhen=ActiveShellExpression(Shell {Preferences}), active=true, sourcePriority=17408, participating=true]} in: PartImpl (org.eclipse.e4.ui.compatibility.editor)  removeOnHide org.eclipse.ui.DefaultTextEditorContext
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService$HandlerSelectionFunction.compute(LegacyHandlerService.java:145)
+	at org.eclipse.e4.core.internal.contexts.ValueComputation.get(ValueComputation.java:70)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.internalGet(EclipseContext.java:271)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.internalGet(EclipseContext.java:282)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.internalGet(EclipseContext.java:282)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.get(EclipseContext.java:237)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.lookUpHandler(HandlerServiceImpl.java:103)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.handlerChanged(E4HandlerProxy.java:114)
+	at org.eclipse.core.commands.AbstractHandler.fireHandlerChanged(AbstractHandler.java:77)
+	at org.eclipse.jface.commands.ActionHandler.lambda$0(ActionHandler.java:81)
+	at org.eclipse.jface.action.AbstractAction.firePropertyChange(AbstractAction.java:52)
+	at org.eclipse.jface.action.AbstractAction.firePropertyChange(AbstractAction.java:75)
+	at org.eclipse.jface.action.Action.setToolTipText(Action.java:635)
+	at org.eclipse.ui.internal.NavigationHistoryAction.update(NavigationHistoryAction.java:257)
+	at org.eclipse.ui.internal.NavigationHistory.updateActions(NavigationHistory.java:416)
+	at org.eclipse.ui.internal.NavigationHistory.addEntry(NavigationHistory.java:372)
+	at org.eclipse.ui.internal.NavigationHistory.lambda$0(NavigationHistory.java:209)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4928)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4449)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ui.internal.OpenPreferencesAction.run(OpenPreferencesAction.java:66)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:579)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:413)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5685)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1423)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4953)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4446)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1158)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1047)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:658)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:557)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1447)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1420)

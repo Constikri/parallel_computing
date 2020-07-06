@@ -13,6 +13,8 @@
 #include <random>
 using namespace std;
 
+
+
 template<int width, int height>
 void generate(double (&matrix)[width][height]){
 	random_device rd;
@@ -37,13 +39,29 @@ void multiply(double (&matrixA)[widthA][heightA], double (&matrixB)[widthB][heig
 }
 
 int main(int argc, char *argv[]) {
-	double matrixA[5][5];
-	double matrixB[5][5];
-	double result[5][5];
-	generate(matrixA);
-	generate(matrixB);
 
 	MPI::Init(argc, argv);
+	int size = MPI::COMM_WORLD.Get_size();
+	int rank = MPI::COMM_WORLD.Get_rank();
+
+	if(rank == 0){
+		int xdim, ydim, xportion, yportion, xrest, yrest;
+		cout << "Please put in the x dimension of the first matrix:" << endl;
+		cin >> xdim;
+		cout << "Please put in the y dimension of the first matrix:" << endl;
+		cin >> xdim;
+
+		double matrixA[xdim][ydim];
+		double matrixB[ydim][xdim];
+		double result[xdim][xdim];
+		generate(matrixA);
+		generate(matrixB);
+
+		xportion = xdim/(size-1);
+		xrest = xdim%(size-1);
+		yportion = ydim/(size-1);
+		yrest = ydim%(size-1);
+	}
 
 	multiply(matrixA, matrixB, result);
 

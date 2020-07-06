@@ -13,26 +13,31 @@
 #include <random>
 using namespace std;
 
+double **alloc_2d_init(int rows, int cols) {
+	double *data = (double *)malloc(rows*cols*sizeof(double));
+	double **array= (double **)malloc(rows*sizeof(double*));
+	for (int i=0; i<rows; i++)
+		array[i] = &(data[cols*i]);
 
+	return array;
+}
 
-template<int width, int height>
-void generate(double (&matrix)[width][height]){
+void generate(double **matrix, int x, int y){
 	random_device rd;
 	mt19937 gen(rd());
 	uniform_real_distribution<double> dist(0.0, 1000.0);
-	for(int i = 0; i < width; i++){
-		for(int j = 0; j < height; j++){
+	for(int i = 0; i < x; i++){
+		for(int j = 0; j < y; j++){
 			matrix[i][j] = dist(gen);
 		}
 	}
 }
 
-template<int widthA, int heightA, int widthB, int heightB>
-void multiply(double (&matrixA)[widthA][heightA], double (&matrixB)[widthB][heightB], double (&result)[widthA][heightB]){
-	for(int i = 0; i < heightA; i++){
-		for(int j = 0; j < widthB; j++){
-			for(int k = 0; k < heightB; k++){
-				result[i][j] += matrixA[i][k] * matrixB[k][j];
+void multiply(double **A, double **B, double **result, int x, int y){
+	for(int i = 0; i < x; i++){
+		for(int j = 0; j < x; j++){
+			for(int k = 0; k < y; k++){
+				result[i][j] += A[i][k] * B[k][j];
 			}
 		}
 	}
@@ -51,11 +56,10 @@ int main(int argc, char *argv[]) {
 		cout << "Please put in the y dimension of the first matrix:" << endl;
 		cin >> xdim;
 
-		double matrixA[xdim][ydim];
-		double matrixB[ydim][xdim];
-		double result[xdim][xdim];
-		generate(matrixA);
-		generate(matrixB);
+		double **A, **B, **result;
+		A = alloc_2d_init(xdim, ydim);
+		B = alloc_2d_init(ydim, xdim);
+		result = alloc_2d_init(xdim, xdim);
 
 		xportion = xdim/(size-1);
 		xrest = xdim%(size-1);
@@ -63,10 +67,7 @@ int main(int argc, char *argv[]) {
 		yrest = ydim%(size-1);
 	}
 
-	multiply(matrixA, matrixB, result);
-
 	MPI::Finalize();
-	cout << "Finished";
 	return 0;
 }
 

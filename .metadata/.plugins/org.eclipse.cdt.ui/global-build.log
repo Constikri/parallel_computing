@@ -1,33 +1,8 @@
-17:04:41 **** Incremental Build of configuration Debug for project matrix_mult_mpi ****
+19:05:37 **** Incremental Build of configuration Debug for project matrix_mult_mpi ****
 make all 
 Building file: ../src/matrix_mult_mpi.cpp
 Invoking: GCC C++ Compiler
-mpic++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/matrix_mult_mpi.d" -MT"src/matrix_mult_mpi.o" -o "src/matrix_mult_mpi.o" "../src/matrix_mult_mpi.cpp"
-../src/matrix_mult_mpi.cpp: In function ‘int main(int, char**)’:
-../src/matrix_mult_mpi.cpp:53:19: warning: variable ‘xportion’ set but not used [-Wunused-but-set-variable]
-   int xdim, ydim, xportion, yportion, xrest, yrest;
-                   ^~~~~~~~
-../src/matrix_mult_mpi.cpp:53:29: warning: variable ‘yportion’ set but not used [-Wunused-but-set-variable]
-   int xdim, ydim, xportion, yportion, xrest, yrest;
-                             ^~~~~~~~
-../src/matrix_mult_mpi.cpp:53:39: warning: variable ‘xrest’ set but not used [-Wunused-but-set-variable]
-   int xdim, ydim, xportion, yportion, xrest, yrest;
-                                       ^~~~~
-../src/matrix_mult_mpi.cpp:53:46: warning: variable ‘yrest’ set but not used [-Wunused-but-set-variable]
-   int xdim, ydim, xportion, yportion, xrest, yrest;
-                                              ^~~~~
-../src/matrix_mult_mpi.cpp:59:12: warning: variable ‘A’ set but not used [-Wunused-but-set-variable]
-   double **A, **B, **result;
-            ^
-../src/matrix_mult_mpi.cpp:59:17: warning: variable ‘B’ set but not used [-Wunused-but-set-variable]
-   double **A, **B, **result;
-                 ^
-../src/matrix_mult_mpi.cpp:59:22: warning: variable ‘result’ set but not used [-Wunused-but-set-variable]
-   double **A, **B, **result;
-                      ^~~~~~
-../src/matrix_mult_mpi.cpp:60:5: warning: ‘ydim’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-   A = alloc_2d_init(xdim, ydim);
-   ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~
+mpic++ -std=c++0x -O0 -g -Wall -c -fmessage-length=0 -MMD -MP -MF"src/matrix_mult_mpi.d" -MT"src/matrix_mult_mpi.o" -o "src/matrix_mult_mpi.o" "../src/matrix_mult_mpi.cpp"
 Finished building: ../src/matrix_mult_mpi.cpp
  
 Building target: matrix_mult_mpi

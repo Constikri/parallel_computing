@@ -1,4 +1,4 @@
-GitRepositoriesView.GitDirectories=
-GitRepositoriesView.GitDirectories.relative=
+GitRepositoriesView.GitDirectories=/home/isd/eclipse-workspace/.git\:
+GitRepositoriesView.GitDirectories.relative=.git\:
 core_defaultRepositoryDir=/home/isd/eclipse-workspace/matrix_mult_mpi
 eclipse.preferences.version=1

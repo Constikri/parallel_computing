@@ -992,3 +992,21 @@ Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp
 
 !ENTRY org.eclipse.debug.ui 4 0 2020-07-09 17:56:16.927
 !MESSAGE Tab group extension: org.eclipse.cdt.launch.applicationProfileLaunchTabGroup for type org.eclipse.cdt.launch.applicationLaunchType for the [profile] mode has been replaced by extension: org.eclipse.cdt.launch.applicationProfileLaunchTabGroup
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-07-17 19:31:03.105
+!MESSAGE Indexed 'matrix_mult_openMP' (0 sources, 0 headers) in 0,001 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-07-17 19:32:45.140
+!MESSAGE Indexed 'matrix_mult_openMP' (1 sources, 54 headers) in 0,24 sec: 1.217 declarations; 2.057 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-07-17 19:55:19.353
+!MESSAGE Indexed 'matrix_mult_openMP' (1 sources, 29 headers) in 0,071 sec: 814 declarations; 1.583 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-07-18 00:12:53.248
+!MESSAGE Indexed 'matrix_mult_openMP' (1 sources, 29 headers) in 0,07 sec: 818 declarations; 1.602 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-07-18 00:28:51.458
+!MESSAGE Indexed 'test' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-07-18 00:31:38.979
+!MESSAGE Indexed 'test' (1 sources, 28 headers) in 0,054 sec: 614 declarations; 1.449 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0 %)

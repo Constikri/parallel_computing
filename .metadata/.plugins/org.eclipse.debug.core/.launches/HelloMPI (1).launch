@@ -7,7 +7,7 @@
     <stringAttribute key="f6b87212-5b7f-30ff-ab89-65a8ac2413e9.control.user.name" value="isd"/>
     <stringAttribute key="f6b87212-5b7f-30ff-ab89-65a8ac2413e9.control.working.dir" value="/home/isd"/>
     <stringAttribute key="f6b87212-5b7f-30ff-ab89-65a8ac2413e9.current_controller" value="Basic.Options"/>
-    <stringAttribute key="f6b87212-5b7f-30ff-ab89-65a8ac2413e9.debuggerArgs" value="--port=36481 --host=localhost --debugger=gdb-mi"/>
+    <stringAttribute key="f6b87212-5b7f-30ff-ab89-65a8ac2413e9.debuggerArgs" value="--port=42099 --host=localhost --debugger=gdb-mi"/>
     <stringAttribute key="f6b87212-5b7f-30ff-ab89-65a8ac2413e9.debuggerId" value="org.eclipse.ptp.debug.sdm"/>
     <stringAttribute key="f6b87212-5b7f-30ff-ab89-65a8ac2413e9.directory" value="/home/isd/eclipse-workspace/HelloMPI/Debug"/>
     <stringAttribute key="f6b87212-5b7f-30ff-ab89-65a8ac2413e9.enabled_Advanced.Options" value="useDefaultAguments useDefaultPath"/>

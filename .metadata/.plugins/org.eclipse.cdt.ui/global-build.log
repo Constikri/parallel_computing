@@ -1,3 +1,16 @@
-00:35:47 **** Incremental Build of configuration Debug for project matrix_mult_openMP ****
+01:24:59 **** Incremental Build of configuration Debug for project matrix_mult_openMP ****
 make all 
-make: Für das Ziel „all“ ist nichts zu tun.
+Building file: ../src/matrix_mult_openMP.c
+Invoking: GCC C Compiler
+gcc -fopenmp -std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/matrix_mult_openMP.d" -MT"src/matrix_mult_openMP.o" -o "src/matrix_mult_openMP.o" "../src/matrix_mult_openMP.c"
+../src/matrix_mult_openMP.c: In function ‘main’:
+../src/matrix_mult_openMP.c:60:16: warning: variable ‘xrest’ set but not used [-Wunused-but-set-variable]
+  int xportion, xrest, offset;
+                ^~~~~
+Finished building: ../src/matrix_mult_openMP.c
+ 
+Building target: matrix_mult_openMP
+Invoking: GCC C Linker
+gcc -fopenmp  -o "matrix_mult_openMP"  ./src/matrix_mult_openMP.o   
+Finished building target: matrix_mult_openMP
+ 

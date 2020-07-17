@@ -30,17 +30,10 @@ int main (int argc, char *argv[]) {
 
 	int numThreads, tid, xdim, ydim, i, j, k;
 	double **A, **B, **result;
-	char in[100];
 	printf("Please put in the x dimension of the first matrix: ");
-	scanf(" %s", in);
 	scanf("%d", &xdim);
-//	if(fgets(in, sizeof(in), stdin) != NULL){
-//		xdim = atoi(in);
-//	}
 	printf("Please put in the y dimension of the first matrix: ");
-	if(fgets(in, sizeof(in), stdin) != NULL){
-		ydim = atoi(in);
-	}
+	scanf("%d", &ydim);
 
 	A = alloc_2d_array_double(xdim, ydim);
 	B = alloc_2d_array_double(ydim, xdim);
@@ -62,13 +55,14 @@ int main (int argc, char *argv[]) {
 	fclose(fp_a);
 	fclose(fp_b);
 
-#pragma omp parallel private(numThreads, tid) default(shared)
+#pragma omp parallel private(numThreads, tid, i, j, k) default(shared)
 {
 	int xportion, xrest, offset;
 	tid = omp_get_thread_num();
 	numThreads = omp_get_num_threads();
 
 	xportion = xdim/(numThreads);
+	// rest verteilen
 	xrest = xdim%(numThreads);
 	offset = xportion*tid;
 
@@ -79,6 +73,8 @@ int main (int argc, char *argv[]) {
 			}
 		}
 	}
+	printf("Thread: %d i: %d j: %d k: %d\n", tid,i,j,k);
+
 }
 	FILE *fp_res;
 	fp_res = fopen("result.txt", "w+");
@@ -89,6 +85,13 @@ int main (int argc, char *argv[]) {
 		fprintf(fp_res, "\n");
 	}
 	fclose(fp_res);
+
+	free(A[0]);
+	free(A);
+	free(B[0]);
+	free(B);
+	free(result[0]);
+	free(result);
  return 0;
 }
 

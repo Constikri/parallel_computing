@@ -1,4 +1,4 @@
-17:34:02 **** Incremental Build of configuration Debug for project matrix_mult_mpi ****
+00:52:16 **** Incremental Build of configuration Debug for project matrix_mult_mpi ****
 make all 
 Building file: ../src/matrix_mult_mpi.cpp
 Invoking: GCC C++ Compiler
@@ -11,5 +11,5 @@ mpic++  -o "matrix_mult_mpi"  ./src/matrix_mult_mpi.o
 Finished building target: matrix_mult_mpi
  
 
-17:34:03 Build Finished. 0 errors, 0 warnings. (took 1s.285ms)
+00:52:17 Build Finished. 0 errors, 0 warnings. (took 1s.292ms)
 

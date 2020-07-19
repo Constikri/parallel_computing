@@ -48,9 +48,9 @@ int main (int argc, char *argv[]) {
 	double **A, **B, **result;
 
 	//request the dimensions of the matrices from the user
-	printf("Please put in the x dimension matrices: ");
+	printf("Please put in the x dimension of the first matrix: ");
 	scanf("%d", &xdim);
-	printf("Please put in the y dimension matrices: ");
+	printf("Please put in the y dimension of the first matrix: ");
 	scanf("%d", &ydim);
 
 	//allocate memory to the matrix pointers
@@ -114,8 +114,9 @@ int main (int argc, char *argv[]) {
 	free(result[0]);
 	free(result);
 
+
+	printf("Look up files A.txt and B.txt to see the matrixes used, and look up result.txt to see the result\n");
 	printf("Program Finished\n");
-	printf("Look up files A.txt and B.txt to see the matrixes used, and look up result.txt to see the result");
 
  return 0;
 }
